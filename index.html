@@ -15,30 +15,32 @@
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">Ma1</a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarSupportedContent"
-        aria-controls="navbarSupportedContent"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span class="navbar-toggler-icon"></span>
-      </button>
+      <div class="container">
+        <a class="navbar-brand" href="#">Ma1</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
 
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav ml-auto">
-          <li class="nav-item active">
-            <a class="nav-link" href="index.html"
-              >Home <span class="sr-only">(current)</span></a
-            >
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">About</a>
-          </li>
-        </ul>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item active">
+              <a class="nav-link active" href="index.html"
+                >Home <span class="sr-only">(current)</span></a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+          </ul>
+        </div>
       </div>
     </nav>
     <div class="container">
@@ -61,7 +63,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
-          <div class="card product">
+          <div class="card product outline">
             <div
               class="card-img-top embed-responsive embed-responsive-4by3"
             ></div>
@@ -85,7 +87,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
-          <div class="card product">
+          <div class="card product filled">
             <div
               class="card-img-top embed-responsive embed-responsive-4by3"
             ></div>
@@ -101,7 +103,7 @@
           </div>
         </div>
         <div class="col-md-6 col-lg-3">
-          <div class="card product">
+          <div class="card product outline">
             <div
               class="card-img-top embed-responsive embed-responsive-4by3"
             ></div>
@@ -126,9 +128,13 @@
         <div class="col">Column</div>
       </div>
     </div> -->
-    <footer>
-      <p>hello@email.com</p>
-      <p>Copyright 2020</p>
+    <footer class="sticky-footer">
+      <div class="footer-container">
+        <div class="container">
+          <p>hello@email.com</p>
+          <p>Copyright 2020</p>
+        </div>
+      </div>
     </footer>
     <script
       src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
