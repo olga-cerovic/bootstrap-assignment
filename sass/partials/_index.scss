@@ -16,11 +16,6 @@ body {
   }
 }
 
-// .navbar-brand {
-//   color: $dark !important;
-//   font-weight: bolder !important;
-// }
-
 .navbar {
   color: $navbar-light-color;
   text-transform: uppercase;
@@ -29,6 +24,10 @@ body {
     color: $dark !important;
     font-weight: bolder !important;
     font-size: 25px;
+  }
+
+  .navbar-toggler-icon {
+    background-color: $primary;
   }
 }
 
@@ -78,8 +77,4 @@ footer {
     align-items: center;
     padding: 1em !important;
   }
-}
-
-.navbar-toggler-icon {
-  background-color: $primary;
 }
