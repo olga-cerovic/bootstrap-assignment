@@ -1,12 +1,41 @@
-$color-background-grey: #e5e5e5;
-$color-lightest-grey: #f4f3ee;
-$color-text-grey: #8d8d8d;
-$color-white: #ffffff;
-$color-darkest-grey: #262626;
-$color-heading: #463f3a;
-$color-light-grey: #e2e2e2;
-$color-purple: #c32c72;
+@import "partials/custom";
+@import "partials/index";
 
-body {
-  background: $color-background-grey;
-}
+@import "../bootstrap-scss/functions";
+@import "../bootstrap-scss/variables";
+@import "../bootstrap-scss/mixins";
+@import "../bootstrap-scss/root";
+@import "../bootstrap-scss/reboot";
+@import "../bootstrap-scss/type";
+@import "../bootstrap-scss/images";
+@import "../bootstrap-scss/grid";
+@import "../bootstrap-scss/tables";
+@import "../bootstrap-scss/forms";
+@import "../bootstrap-scss/buttons";
+@import "../bootstrap-scss/transitions";
+@import "../bootstrap-scss/dropdown";
+@import "../bootstrap-scss/button-group";
+@import "../bootstrap-scss/input-group";
+@import "../bootstrap-scss/custom-forms";
+@import "../bootstrap-scss/nav";
+@import "../bootstrap-scss/navbar";
+@import "../bootstrap-scss/card";
+@import "../bootstrap-scss/jumbotron";
+@import "../bootstrap-scss/media";
+@import "../bootstrap-scss/list-group";
+@import "../bootstrap-scss/close";
+@import "../bootstrap-scss/utilities";
+@import "../bootstrap-scss/print";
+
+// $color-background-grey: #e5e5e5;
+// $color-lightest-grey: #f4f3ee;
+// $color-text-grey: #8d8d8d;
+// $color-white: #ffffff;
+// $color-darkest-grey: #262626;
+// $color-heading: #463f3a;
+// $color-light-grey: #e2e2e2;
+// $color-purple: #c32c72;
+
+// body {
+//   background: $color-background-grey;
+// }
