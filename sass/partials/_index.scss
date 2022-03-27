@@ -4,84 +4,82 @@ body {
 }
 
 body {
-  background-color: $backround-grey !important;
+  background-color: $background-grey !important;
   display: flex !important;
   flex-direction: column !important;
+
+  h1 {
+    text-align: center;
+    margin: 50px 0 50px 0 !important;
+    font-size: 1.6rem !important;
+    color: $heading-color;
+  }
 }
 
-.navbar-brand {
-  color: $dark !important;
-  font-weight: bolder !important;
-}
+// .navbar-brand {
+//   color: $dark !important;
+//   font-weight: bolder !important;
+// }
 
 .navbar {
   color: $navbar-light-color;
   text-transform: uppercase;
+
+  .navbar-brand {
+    color: $dark !important;
+    font-weight: bolder !important;
+    font-size: 25px;
+  }
 }
 
-.navbar-light .navbar-nav a:active {
-  color: $primary !important;
-}
-
-.navbar-light .navbar-nav a {
-  color: $text-color !important;
-  font-size: 14px;
-}
-
-.navbar-toggler .navbar-toggler-icon {
-  color: $dark !important;
-}
-
-h1 {
-  text-align: center;
-  margin: 50px 0 50px 0 !important;
-  font-size: 1.6rem !important;
-  color: $heading-color;
+.nav-item {
+  a {
+    color: $text-color !important;
+    font-size: 14px;
+  }
 }
 
 .card {
   background-color: $navbar-light-color !important;
   border-radius: $border-radius;
   margin-bottom: 25px;
+  box-shadow: 2px 3px 30px -16px rgba(0, 0, 0, 0.6);
+  -webkit-box-shadow: 2px 3px 30px -16px rgba(0, 0, 0, 0.6);
+  -moz-box-shadow: 2px 3px 30px -16px rgba(0, 0, 0, 0.6);
+
+  &__outline {
+    border: 2px solid $primary !important;
+  }
+
+  &__filled {
+    background-color: $primary !important;
+  }
 }
 
-footer .footer-container {
-  background-color: $navbar-light-color;
-}
-
-footer .footer-container p {
-  margin-bottom: 0;
-}
-
-footer .footer-container .container {
-  display: flex;
-  flex-shrink: 0 !important;
-  justify-content: space-between;
-  margin-top: 0;
-  font-size: 0.8em;
-  color: #8d8d8d;
-  padding: 0.5em;
-  align-items: center;
-  padding: 0.8em !important;
-}
-
-.sticky-footer {
+footer {
   position: sticky;
   top: 100%;
+  .footer-container {
+    background-color: $navbar-light-color;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+
+  .container {
+    display: flex;
+    flex-shrink: 0 !important;
+    justify-content: space-between;
+    margin-top: 0;
+    font-size: 0.8em;
+    color: #8d8d8d;
+    padding: 0.5em;
+    align-items: center;
+    padding: 1em !important;
+  }
 }
 
-.outline {
-  border: 2px solid $primary !important;
-}
-
-.filled {
-  background-color: $primary !important;
-}
-
-.navbar-toggler {
-  background-color: $primary !important;
-}
-
-a .nav-link .active {
-  color: $primary !important;
+.navbar-toggler-icon {
+  background-color: $primary;
 }
